@@ -6,6 +6,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1
+{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
 .header
 {
     background-image: url(../images/top-banner.png);
@@ -21,7 +28,7 @@ body{
 }
 .header-left
 {
-    width: 50%;
+    width: 60%;
     margin-top: 20px;
 }
 .header-left h1
@@ -60,7 +67,7 @@ body{
     color: coral;
 }
 .right-header{
-    width: 50%;
+    width: 40%;
     text-align: center;
     margin-top: 80px;
 }
@@ -103,4 +110,37 @@ body{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expirence-item
+{
+    box-shadow: 10px 10px 50px rgb(32, 27, 27);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.experience-area
+{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#wed-dev-expeerience
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,green);
+    border-image-slice: 1;
+}
+#full-stack
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(70, 112, 89),rgb(128, 0, 128));
+    border-image-slice: 1;    
+}
+footer
+{
+    text-align: center;
+    margin: 30px;
 }
