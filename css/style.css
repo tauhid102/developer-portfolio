@@ -16,6 +16,7 @@ body{
     width: 90%;
     margin: auto;
     display: flex;
+    margin-bottom: 80px;
     
 }
 .header-left
@@ -62,4 +63,44 @@ body{
     width: 50%;
     text-align: center;
     margin-top: 80px;
+}
+.dream-left{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.dream-left h1{
+    font-size: 50px;
+    line-height: 3em;
+}
+.dream-left h3{
+    font-size: 30px;
+    line-height: 3em;
+}
+.link-button2
+{
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 40px;
+    display: block;
+    width: 33%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.link-button2:hover
+{
+    border: 2px solid brown;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+.dream
+{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
